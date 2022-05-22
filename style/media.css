@@ -1,0 +1,12 @@
+@media(prefers-color-schame:dark){
+    :root {
+        --bady: black;
+        --text: #faf5f5ef;
+        --dots: #828282;
+        --work_info: #fff;
+    }
+    .logo::after {
+        display: block;
+        content: url(../images/logo1.png);
+    }
+}

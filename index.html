@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <title>PetShop</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand logo" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon menu"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto list  align-items-start align-items-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Каталог</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О сервисе</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " href="#">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="fal fa-phone-square-alt phone-icon"></span>
+                            </a>
+                        </li>
+                    </ul>
+                     <ul>
+                       <li class="nav-item">
+                         <a class="nav-link" href="#">
+                         </a>
+                     </li>
+                     </ul>
+                </div>
+                <div class="header__icon">
+                  <div class="nav__icons">
+                     <span class="fal fa-heart social-icon"></span>
+                    </div>
+                    <div class="two">
+                     <p>54</p>
+                    </div>
+                    <div id="sms" class="nav__icons">
+                     <span class="fal fa-envelope social-icon"></span>
+                    </div>
+                   <p>1 р.</p>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-xl ms-auto">
+                        <h1 class="heaader__title">Твой новый друг с доставкой на дом</h1>
+                            <p class="header__text">Онлайн-магазин домашних животных подарит тебе нового друга в несколько кликов. Действуй!</p>
+                            <a href="" class="header__link all-btn">Купить сейчас</a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./images/4.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/dog.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/4.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section class="section">
+       <div class="container">
+        <h1 class="sectioin__title">
+          Популярные категории
+         </h1>
+         
+           <div class="animals">
+             <div class="boxs">
+               <img class="img" src="./images/dog_2.png" alt="">
+               <p class="box__item">Собаки</p>
+             </div>
+             <div class="boxs" >
+               <img class="img" src="./images/cat_2.png" alt="">
+               <p class="box__item">Кошки</p>
+             </div>
+             <div class="boxs">
+               <img class="img" src="./images/bird.png" alt="">
+               <p class="box__item">Птицы</p>
+             </div>
+             <div class="boxs">
+               <img class="img" src="./images/rib.png" alt="">
+               <p class="box__item">Рыбы</p>
+             </div>
+           </div>
+       </div>
+        
+     </section>
+    <section class="section2">
+        <h1 class="sectioin__title text-dark">
+            Наши продукты
+        </h1>
+        <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing nunc. Sagittis arcu cursus lorem ultricies </p>
+        
+          <div class="animals ">
+            <div class="boxs bg-white">
+              <img class="img2" src="./images/sec_1.png" alt="">
+              <p class="box__item text-dark">Корм для собак</p>
+                <a href="#" class="section__link order2">Смотреть</a>
+            </div>
+            <div class="boxs bg-white">
+              <img class="img2" src="./images/sec_2.png" alt="">
+              <p class="box__item text-dark">корм для кошек</p>
+              <a href="#" class="section__link order2">Смотреть</a>
+            </div>
+            <div class="boxs bg-white">
+              <img class="img2" src="./images/sec3.png" alt="">
+              <p class="box__item text-dark">Корм для птиц</p>
+              <a href="#" class="section__link order2">Смотреть</a>
+            </div>
+            <div class="boxs bg-white">
+              <img class="img2" src="./images/sec4.png" alt="">
+              <p class="box__item text-dark">Корм для  рыбам</p>
+              <a href="#" class="section__link order2">Смотреть</a>
+            </div>
+          </div>
+        
+     </section>
+   
+    <div class="section2">
+      <div id="carouselExampleIndicator" class="carousel carousel-dark  slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <h1 class="sectioin__title text-dark">
+          Специальные продукты 
+        </h1>
+        <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing nunc. Sagittis arcu cursus lorem ultricies </p>
+        
+          <div class="animals carousel-inner">
+            <div class="boxs  bg-white">
+              <img class="img2" src="./images/car_1.png" alt="">
+              <p class="box__item text-dark">Лучшие друзья
+               Шери Deep Dish Sherpa</p>
+            <div class="cost">
+                  <a href="#" class="cost__info">Цена:
+                    90$</a>
+                    <div class="cost__icons">
+                     <span class="fal fa-heart social-icon"></span>
+                     <span class="fal fa-envelope social-icon"></span>
+                    </div>
+            </div>
+                 
+            </div>
+            <div class="boxs bg-white">
+              <img class="img2" src="./images/car_2.png" alt="">
+              <p class="box__item text-dark">Лучшие друзья
+               Шери Deep Dish Sherpa</p>
+            <div class="cost">
+                  <a href="#" class="cost__info">Цена:
+                    90$</a>
+                    <div class="cost__icons">
+                     <span class="fal fa-heart social-icon"></span>
+                     <span class="fal fa-envelope social-icon"></span>
+                    </div>
+            </div>
+                 
+            </div>
+            <div class="boxs bg-white">
+              <img class="img2" src="./images/car_3.png" alt="">
+              <p class="box__item text-dark">Лучшие друзья
+               Шери Deep Dish Sherpa</p>
+            <div class="cost">
+                  <a href="#" class="cost__info">Цена:
+                    90$</a>
+                    <div class="cost__icons">
+                     <span class="fal fa-heart social-icon"></span>
+                     <span class="fal fa-envelope social-icon"></span>
+                    </div>
+            </div>
+                 
+            </div>
+            <div class="boxs bg-white">
+              <img class="img2" src="./images/car_4.png" alt="">
+              <p class="box__item text-dark">Лучшие друзья
+               Шери Deep Dish Sherpa</p>
+            <div class="cost">
+                  <a href="#" class="cost__info">Цена:
+                    90$</a>
+                    <div class="cost__icons">
+                     <span class="fal fa-heart social-icon"></span>
+                     <span class="fal fa-envelope social-icon"></span>
+                    </div>
+            </div>
+                 
+            </div>
+       
+            
+     
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+    
+  </div>
+    <section class="section">
+      <h1 class="sectioin__title ">
+        Наши ветеринары 
+      </h1>
+      <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing nunc. Sagittis arcu cursus lorem ultricies </p>
+      
+       <div class="careanimals">
+         <div class="vet">
+           <img src="./images/vet1.png" alt="">
+           <div class="vet__info">
+             <a class="vet__item" href="">
+              <span class="fal fa-phone-square-alt vet-icon"></span>
+             </a>
+             <h2>София Адамс</h2>
+             <h3> Ветеринарный Врач</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing </p>
+             <div class="icons">
+              <a class="soc__media" href="">
+                <span class="fal fa-thumbs-up social-icon"></span>
+               </a>
+               <a class="soc__media" href="">
+                <span class="fal fa-envelope social-icon"></span>
+               </a>
+               <a class="soc__media" href="">
+                <span class="fal fa-comment social-icon"></span>
+               </a>
+               
+            </div>
+
+           </div>
+         </div>
+         <div class="vet">
+           <img src="./images/vet2.png" alt="">
+           <div class="vet__info">
+            <div class="number">
+              <a href="">+7 988 777-88-77</a>
+            </div>
+             <h2>Брайан Адамс</h2>
+             <h3>Физиотерапевт </h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing </p>
+             <div class="icons">
+              <a class="soc__media" href="">
+                <span class="fal fa-thumbs-up social-icon"></span>
+               </a>
+               <a class="soc__media" href="">
+                <span class="fal fa-envelope social-icon"></span>
+               </a>
+               <a class="soc__media" href="">
+                <span class="fal fa-comment social-icon"></span>
+               </a>
+               
+            </div>
+           </div>
+         </div>
+
+       </div>
+       <div class="careanimals">
+         <div class="vet">
+           <img src="./images/vet3.png" alt="">
+           <div class="vet__info">
+            <a class="vet__item" href="">
+              <span class="fal fa-phone-square-alt vet-icon"></span>
+             </a>
+             <h2>Азарова Мария</h2>
+             <h3>Эпидемиолог</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing </p>
+             <div class="icons">
+              <a class="soc__media" href="">
+                <span class="fal fa-thumbs-up social-icon"></span>
+               </a>
+               <a class="soc__media" href="">
+                <span class="fal fa-envelope social-icon"></span>
+               </a>
+               <a class="soc__media" href="">
+                <span class="fal fa-comment social-icon"></span>
+               </a>
+               
+            </div>
+           </div>
+         </div>
+         <div class="vet">
+           <img src="./images/vet4.png" alt="">
+           <div class="vet__info">
+            <a class="vet__item" href="">
+              <span class="fal fa-phone-square-alt vet-icon"></span>
+             </a>
+             <h2>Смирнова Ольга</h2>
+             <h3>Стоматолог</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing </p>
+             <div class="icons">
+              <a class="soc__media" href="">
+                <span class="fal fa-thumbs-up social-icon"></span>
+               </a>
+               <a class="soc__media" href="">
+                <span class="fal fa-envelope social-icon"></span>
+               </a>
+               <a class="soc__media" href="">
+                <span class="fal fa-comment social-icon"></span>
+               </a>
+               
+            </div>
+           </div>
+         </div>
+       </div>
+   </section>
+    <section class="section2">
+      <h1 class="sectioin__title text-dark">
+         Новости животных сегодня 
+      </h1>
+      <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing nunc. Sagittis arcu cursus lorem ultricies </p>
+  <div class="container">
+   <div class="intro__title">
+      <div class="intro__left">
+            <div class="intro__img">
+               <img src="./images/intr.png" alt="">
+            </div>
+         <div class="intro__info">
+            <h1 class="int">Новости животных</h1>
+            <p>Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel Eu usu vidit tractatos, vero tractatos ius an, in mel Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, tractatos, vero tractatos ius an, in mel !!!</p>
+          
+        <div class="intro__link">
+         <a href="#" >Смотреть</a>
+        </div>
+         
+         </div>
+      </div>
+      <div class="intro__right">
+       
+         <div class="intro__imeges">
+            <img src="./images/intro_1.png" alt="">
+            <img src="./images/intro__2.png" alt="">
+         </div>
+         <div class="intro__imeges">
+            <img src="./images/intro_3.png" alt="">
+            <img src="./images/intro_4.png" alt="">
+         </div>
+       
+        
+      </div>
+     </div>
+  </div>
+    </section>
+  <footer id="footer">
+    <div class="container">
+      <div class="footer__info d-flex">
+      <div class="block1">
+        <img src="./images/f_logo.png" alt="" class="log">
+        <p class="footer__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing nunc. Sagittis arcu cursus lorem 
+        </p>
+        <a href="" class="footer__link">+7 988 777-88-77</a>
+        <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
+          </div> 
+        </nav>
+      </div>
+      <div class="block2">
+        <h1 class="block__name">Новости</h1>
+        <div class="block__item1">
+          <img src="./images/footer_1.png" alt="">
+       <div class="blovk__text">
+        <h2>Вфывфывфыввыф</h2>
+        <p>18.08.2020</p>
+       </div>
+        </div>
+        <div class="block__item2">
+          <img src="./images/footer_2.png" alt="">
+       <div class="blovk__text">
+        <h2>Вфывфывфыввыф</h2>
+        <p>18.08.2020</p>
+       </div>
+        </div>
+        <div class="block__item3">
+          <img src="./images/footer_3.png" alt="">
+       <div class="blovk__text">
+        <h2>Вфывфывфыввыф</h2>
+        <p>18.08.2020</p>
+       </div>
+        </div>
+      </div>
+      <div class="block3">
+        <h1 class="block__name">Инстаграм</h1>
+      <div class="block__images">
+        <img src="./images/f_1.png" alt="">
+        <img src="./images/f_2.png" alt="">
+      </div>
+      <div class="block__images">
+        <img src="./images/f_3.png" alt="">
+        <img src="./images/f_4.png" alt="">
+      </div>
+      <div class="block__images">
+        <img src="./images/f_5.png" alt="">
+        <img src="./images/f_6.png" alt="">
+      </div>
+     
+      </div>
+      <div class="block4">
+        <img src="./images/block4.png" alt="">
+        
+      </div>
+    </div>
+    </div>
+    
+  </footer>
+ 
+  <script src="./js/anime.min.js"></script>
+    <script src="./lib/bootstrap.js"></script>
+    <script src="./script.js"></script>
+    <script src="./typing.js"></script>
+    <script src="./js/anime.js"></script>
+</body>
+
+</html>
